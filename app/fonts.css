@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Poly Sans";
+  src: url("/fonts/polysans-neutral-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poly Sans";
+  src: url("/fonts/polysans-median-webfont.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poly Sans";
+  src: url("/fonts/polysans-median-webfont.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Utility classes for specific font weights */
+.font-poly-neutral {
+  font-family: "Poly Sans", "Inter", system-ui, sans-serif;
+  font-weight: 400;
+}
+
+.font-poly-median {
+  font-family: "Poly Sans", "Inter", system-ui, sans-serif;
+  font-weight: 700;
+}
